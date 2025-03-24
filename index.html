@@ -1,194 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Ananthi A</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #84a6e9;
+            margin: 20px;
+            padding: 20px;
         }
-
-        header {
-            background-color: #941919;
-            color: #fff;
-            text-align: center;
-            padding: 2rem 0;
-            position: relative; /* Add this */
+        h1, h2 {
+            color: #333;
         }
-
-        .header-content h1 {
-            font-size: 2.5rem;
+        table {
+            width: 100%;
+            border-collapse: collapse;
         }
-
-        /* Add styles for the round profile picture */
-        .profile-picture {
-            width: 100px; /* Adjust the size as needed */
-            height: 100px;
-            border-radius: 75%; /* Create a circular shape */
-            object-fit: cover; /* To ensure the image fills the circular area */
-            position: absolute; /* Add this */
-            top: 75px; /* Adjust top position as needed */
-            left: 75px; /* Adjust left position as needed */
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
         }
-
-        nav {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 20px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        .section-content {
-            background-color: #fff;
-            padding: 2rem;
-            margin: 1rem;
-            border-radius: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: justify;
-        }
-
-        .download-button {
-            background-color: #333;
-            color: #fff;
-            padding: 0.5rem 1rem;
-            text-decoration: none;
-            border-radius: 20px;
-            display: inline-block;
-            margin-top: 10px;
-            align-self: center;
-        }
-
-        .download-button:hover {
-            background-color: #555;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background-color: #333;
-            color: #fff;
-        }
-
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
+        th {
+            background-color: #f4f4f4;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <!-- Add your profile picture here -->
-            <img src="passport photo.jpg" alt="Your Profile Picture" class="profile-picture">
-            <h1>Ananthi A</h1>
-            <p>Am Computet Science Student</p>
-        </div>
-    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#resume">Resume</a></li>
-           
-        </ul>
-    </nav>
+    <h1>Ananthi A</h1>
+    <p>Email: <a href="mailto:ananthi.arumugam.2023@gmail.com">ananthi.arumugam.2023@gmail.com</a></p>
+    <p>Phone: 6374138563</p>
 
-    <section id="about">
-        <div class="section-content">
-            <h2>About Me</h2>
-            <p>I'm a <b>student from new prince shri bhavani arts and science college medavakam</b> iam a fresher to developing industry.</p>
+    <h2>Career Objective</h2>
+    <p>Seeking a challenging position where I can utilize my skills to contribute to the success of the company.</p>
 
-        </div>
-    </section>
+    <h2>Educational Qualification</h2>
+    <table>
+        <tr>
+            <th>Class</th>
+            <th>University/School</th>
+            <th>Year</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>B.Sc(Computer Science)</td>
+            <td>Madras University</td>
+            <td>2023-2026</td>
+            <td>75%</td>
+        </tr>
+        <tr>
+            <td>HSC</td>
+            <td>St.joseph Hr. Sec. School</td>
+            <td>2022-2023</td>
+            <td>71%</td>
+        </tr>
+        <tr>
+            <td>SSLC</td>
+            <td>St.joseph Hr. Sec. School</td>
+            <td>2020-2021</td>
+            <td>All Pass</td>
+        </tr>
+    </table>
 
-    <section id="education">
-        <div class="section-content">
-            <h2>Education</h2>
-            <p>madaras - university - science</p>
-            
-            
-        </div>
-    </section>
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>Computer Organization</li>
+        <li>Java Programming</li>
+        <li>Data Structure</li>
+        <li>HTML</li>
+    </ul>
 
-    <section id="skills">
-        <div class="section-content">
-            <h2>Skills</h2>
-            <ul>
-                <li>React</li>
-                <li>Mern</li>
-                <li>Cloud Computing</li>
-                <li>Python</li>
-                <li>java</li>
-                <li>c++</li>
-                <li>Java script</li>
-            </ul>
-        </div>
-    </section>
+    <h2>Personal Skills</h2>
+    <ul>
+        <li>Communication</li>
+        <li>Listening</li>
+        <li>Learning</li>
+    </ul>
 
-    <section id="projects">
-        <div class="section-content">
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="#">E Cart website</a></li>
-                <li><a href="#">Cloud Security IBM</a></li>
-                <li><a href="#">IBM chatbot</a></li>
-                <li><a href="#">College Portal</a></li> 
-                <!-- Add more project links here -->
-            </ul>
-        </div>
-    </section>
+    <h2>Certification Courses</h2>
+    <ul>
+        <li>Object Oriented Programming - Nan Mudhalvan (2024)</li>
+        <li>Basics of Python - Nan Mudhalvan (2024)</li>
+    </ul>
 
-    <section id="resume">
-    
-        <div class="section-content">
-            <center>
-            <h2>Resume</h2>
-            <a href="file.pdf" target="_blank" class="download-button">Download CV</a>
-        </center>
-        </div>
-        
-    </section>
+    <h2>Awards/Achievements</h2>
+    <ul>
+        <li>Full Attendance Award (2018)</li>
+        <li>Best Drawing Award (2019)</li>
+    </ul>
 
-    <footer>
-        <p>&copy; 2025 Ananthi A</p>
-    </footer>
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Drawing</li>
+        <li>Singing</li>
+        <li>Reading Books</li>
+    </ul>
 
-    <script>
-        // Smooth scrolling to section when clicking on navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
+    <h2>Personal Details</h2>
+    <p><strong>Father's Name:</strong> Arumugam.M</p>
+    <p><strong>Mother's Name:</strong> Amsa.A</p>
+    <p><strong>Date of Birth:</strong> 20/01/2006</p>
+    <p><strong>Gender:</strong> Female</p>
+    <p><strong>Address:</strong> Perumbakkam, Chennai-600115</p>
 
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
+    <h2>Declaration</h2>
+    <p>I hereby declare that the above information is true and correct to the best of my knowledge and belief.</p>
 
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-    </script>
+    <p><strong>Place:</strong> Chennai</p>
+    <p><strong>Date:</strong> ___________</p>
+    <p><strong>Signature:</strong> (ANANTHI.A)</p>
+
 </body>
 </html>
